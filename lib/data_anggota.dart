@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class DataKelompokPage extends StatelessWidget {
   final List<Map<String, String>> anggota = [
     {'nama': 'Muhammad Meidy Noor Al Barry', 'nim': '123220079'},
-    {'nama': 'Muhammad Meidy Noor Al Barry', 'nim': '123220079'},
-    {'nama': 'Muhammad Meidy Noor Al Barry', 'nim': '123220079'},
+    {'nama': 'Josua Waruwu', 'nim': '123220083'},
+    {'nama': 'Rayan Luqman Hakim', 'nim': '123220100'},
   ];
 
   @override
