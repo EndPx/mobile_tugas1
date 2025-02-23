@@ -4,6 +4,7 @@ import 'menu_tambah_kurang.dart';
 import 'menu_ganjil_genap.dart';
 import 'menu_total_angka.dart';
 import 'login.dart';
+import 'logout.dart';
 
 void main() {
   runApp(MyApp());
@@ -72,6 +73,10 @@ class _MainPageState extends State<MainPage> {
               title: Text('Jumlah Total Angka'),
               onTap: () => _changePage(MenuTotal(), 'Jumlah Total Angka'),
             ),
+            ListTile(
+              title: Text('Logout'),
+              onTap: () => _changePage(LogoutScreen(), 'Logout'),
+            )
           ],
         ),
       ),
